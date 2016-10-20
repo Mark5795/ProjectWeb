@@ -1,0 +1,66 @@
+body {
+    background-image: url("/images/Headerbackground.png");
+	background-size: cover;
+	background-position: left top, right bottom;
+	background-repeat: no-repeat;
+}
+
+#logonav {
+    display: block;
+    margin: auto;
+	max-width: 100%;
+    height: auto;
+}
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1A8900;
+}
+
+.topnav li {
+	margin-left:auto;
+    margin-right:auto;
+    float: left;
+    border-right: 1px solid #ffffff;
+	border-left: 1px solid ##ffffff;
+}
+.topnav li:last-child {
+    border-right: 2px solid ##ffffff;
+	border-left: 1px solid ##ffffff;
+}
+
+.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.topnav .active {
+    background-color: #4CAF50;
+}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right,
+    ul.topnav li {float: none;}
+	
+
+section {
+	height: 1000px;
+}
+
+footer {
+	background-image: url("/images/footerbackground.png");
+	background-size: cover;
+	background-position: left top, right bottom;
+	background-repeat: no-repeat;
+}
