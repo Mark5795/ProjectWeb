@@ -122,6 +122,7 @@ section {
 	min-height: 469px;
 	margin: 0;
 	max-width: 100%;
+	overflow: initial;
 }
 article {
 	position: absolute;
@@ -222,4 +223,34 @@ li a:hover {
 	footer (height: 200px;)
 	#logofooter (height: 200px;)
     #disclaimer {height: 200px; float: right;}
+}
+/* Horeca pagina */
+
+.cafe {
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 400px;
+	height: 60px;
+	max-width: 600px;
+	width: 100%;
+}
+.stachopeningstijden { 
+	position: absolute;
+	margin-top: 10px;	
+	margin-left: 200px;
+}
+.stachadres {
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 300px;
+}
+.stachwebsite {
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 400px;
+}
+#stachfoto{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 400px;
 }
