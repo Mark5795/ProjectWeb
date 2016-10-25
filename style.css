@@ -76,9 +76,6 @@ ul.leftnav, ul.rightnav {
 	float: left;
 }
 
-.leftnav li:hover:not(.active), .rightnav li:hover:not(.active){
-    background-color: #111;
-}
 
 .leftnav .active, .rightnav .active{
     text-decoration: underline;
@@ -122,18 +119,40 @@ section {
 	border-style: solid;
     border-color: #1A8900;
 	height: auto;
-	min-height: 470px;
+	min-height: 469px;
 	margin: 0;
 	max-width: 100%;
 }
 article {
+	position: absolute;
+	margin-top: 120px;
+	margin-left: 400px;
 	height: auto;
-	margin: 0 auto;
-	padding-top: 64px;
-	max-width: 640px;
-	width: 94%;
+	max-width: 600px;
+	width: 100%;
 }
-
+.hometekst {
+	text-decoration: none;
+	font-size: 130%;
+	font-weight: regular;
+	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0;
+}
+#groeneletter {
+	color: #1A8900;
+	font-weight: bold;
+}
+.link {
+	color: #0c23cd;
+}
+#bospad {
+	position: relative;
+	float: right;
+	margin-top: 80px;
+	margin-right: 450px;
+	min-height: 300px;
+	min-width: 300px;
+}
 
 footer {
 	background-image: url("images/footerbackground.png");
