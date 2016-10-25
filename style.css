@@ -1,9 +1,16 @@
+html {
+	-webkit-text-size-adjust: none;
+	position: relative;
+    height: 100%;
+}
 body{
-	height; 100vh;
+	height: 100%;
+	margin: 0;
+	position: relative;
 }
 
 header {
-    background-image: url("/images/Headerbackground.png");
+    background-image: url("images/Headerbackground.png");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -12,7 +19,8 @@ header {
 	background-position: 0 -200px;
 	height: 40vh;
 	width: 100%;
-	
+	min-height: 80px;
+	position: relative;
 }
 
 #logonav {
@@ -30,9 +38,9 @@ ul.leftnav, ul.rightnav {
     overflow: hidden;
     background-color: #1A8900;
 	position: relative;
-	top: -110px;
+	top: -95px;
 	width: 50%;
-	height: 80px;
+	max-height: 10vh;
 }
 
 .leftnav li {
@@ -60,7 +68,6 @@ ul.leftnav, ul.rightnav {
     color: white;
     padding: 14px 16px;
     text-decoration: none;
-	height: 80px;
 }
 .leftnav li a{
 	float: right;
@@ -74,13 +81,9 @@ ul.leftnav, ul.rightnav {
 }
 
 .leftnav .active, .rightnav .active{
-    background-color: #4CAF50;
+    text-decoration: underline;
+	color: #ffffff;
 }
-
-@media screen and (max-width: 600px){
-    ul.leftnav li {float: none;}
-	ul.rightnav li {float: none;}
-}	
 
 .leftnav{
 	float: left;
@@ -113,17 +116,91 @@ ul.leftnav, ul.rightnav {
 	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	padding-top: 25px;
 }
+
 section {
-	height: 50vh;
+	position: relative;
+	border-style: solid;
+    border-color: #1A8900;
+	height: auto;
+	min-height: 470px;
+	margin: 0;
+	max-width: 100%;
 }
+article {
+	height: auto;
+	margin: 0 auto;
+	padding-top: 64px;
+	max-width: 640px;
+	width: 94%;
+}
+
 
 footer {
 	background-image: url("images/footerbackground.png");
 	background-size: cover;
-	bottom: 0;
 	background-repeat: no-repeat;
-	height: 100px;
-	width: 100%;
+	min-height: 95px;
+	width: auto;
 	margin: 0;
-	position: absolute;
+	position: relative;
+	top: auto;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #transparent;
+	max-width: 50%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-size: 110%;
+	font-weight: regular;
+	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding-top: 25px;
+}
+
+li a:hover {
+    background-color: #1A8900;
+}
+.footernav .actief {
+	text-decoration: underline;
+	color: #1A8900;
+}
+#logofooter{
+	display: block;
+    margin: auto;
+	margin-right: 20px;
+	max-width: 100%;
+    height: 10vh;
+	position: relative;
+	float: right;
+	z-index: 1;
+}
+#disclaimer{
+	display: block;
+    margin: auto;
+	color: #ffffff;
+	position: relative;
+	float: right;
+	right: 5%;
+	bottom: 15%;
+}
+@media screen and (min-width: 360px) {
+	footer (height: 200px;)
+	#logofooter (height: 200px;)
+    #disclaimer {height: 200px; float: right;}
 }
