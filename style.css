@@ -114,29 +114,52 @@ ul.leftnav, ul.rightnav {
 	padding-top: 25px;
 }
 
-section {
-	position: relative;
+#homesection {
 	border-style: solid;
     border-color: #1A8900;
-	height: auto;
 	min-height: 469px;
 	margin: 0;
 	max-width: 100%;
 	overflow: initial;
 }
-article {
-	position: absolute;
-	margin-top: 120px;
-	margin-left: 400px;
-	height: auto;
-	max-width: 600px;
-	width: 100%;
+#hometekstsection {
+	height: 100%;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
 }
-.hometekst {
+#hometekstarticle{
+	height: 60%;
+	width: 60%;
+}
+#bospadfoto {
+	display: inline;
+	position: static;
+	width: auto;
+	margin-left: 15%;
+}
+#bospad {
+	height: 25%;
+	width: 25%;
+}
+.hometekst1 {
 	text-decoration: none;
 	font-size: 130%;
 	font-weight: regular;
 	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-top: 5%;
+	margin-bottom: 0%;
+	width: 100%;
+	float:left;
+}
+.hometekst2 {
+	text-decoration: none;
+	font-size: 130%;
+	font-weight: regular;
+	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	width: 100%;
+	float:left;
 	margin: 0;
 }
 #groeneletter {
@@ -146,27 +169,16 @@ article {
 .link {
 	color: #0c23cd;
 }
-#bospad {
-	position: relative;
-	float: right;
-	margin-top: 80px;
-	margin-right: 450px;
-	min-height: 300px;
-	min-width: 300px;
-}
 
 footer {
 	background-image: url("images/footerbackground.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	min-height: 95px;
-	width: auto;
+	width: 100%;
 	margin: 0;
-	position: relative;
-	top: auto;
-	right: 0;
-	bottom: 0;
-	left: 0;
+	padding: 0;
+	clear: both;
 }
 ul {
     list-style-type: none;
@@ -249,8 +261,15 @@ li a:hover {
 	margin-top: 10px;
 	margin-left: 400px;
 }
-#stachfoto{
+#stachfoto {
 	position: absolute;
 	margin-top: 10px;
 	margin-left: 400px;
+}
+
+#clear{
+	clear:both;
+	height: 1px;
+	display:block;
+	width:100%;
 }
