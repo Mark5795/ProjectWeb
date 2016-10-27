@@ -9,7 +9,7 @@ body{
 	position: relative;
 }
 
-header {
+#paginaheader {
     background-image: url("images/Headerbackground.png");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -238,7 +238,10 @@ li a:hover {
 	#logofooter (height: 200px;)
     #disclaimer {height: 200px; float: right;}
 }
+
+
 /* Horeca pagina */
+
 
 #horecasection {
 	border-style: solid;
@@ -253,26 +256,28 @@ li a:hover {
 	width: 60%;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 20px;
 }
 .horecabeschrijving {
 	height: 50px;
 }
 #stachfooter {
-	position: relative;
-	bottom: 0;
+	margin-top: 90px;
+	margin-bottom: 40px;
 }
 #loetjefooter {
-
+	margin-top: 90px;
+	margin-bottom: 40px;
 }
 #koffiehuisjefooter {
-
+	margin-top: 110px;
+	margin-bottom: 40px;
 }
 .horecaarticle {
 	display: inline;
 	height: 40%;
 	width: 60%;
-	margin-top: 2%;
+	margin-top: 4%;
+	margin-bottom: 4%;
 	float: left;
 }
 
@@ -299,9 +304,9 @@ li a:hover {
 	position: static;
 	width: auto;
 	margin-left: 15%;
-	float: left;
-	margin-top: 2%;
-	margin-bottom: 40px;
+	float: right;
+	margin-top: 4%;
+	margin-bottom: 4%;
 }
 .bovenregel {
 	text-transform: uppercase;
@@ -317,4 +322,31 @@ li a:hover {
 	height: 1px;
 	display:block;
 	width:100%;
+}
+
+
+/* Horeca pagina */
+
+
+#contactsection {
+	border-style: solid;
+    border-color: #1A8900;
+	min-height: 469px;
+	margin: 0;
+	max-width: 100%;
+	overflow: initial;
+}
+#contacttekstsection {
+	height: 100%;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#contacttitel{
+	font-size: 110%;
+	font-weight: bold;
+	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.asterisk{
+	color: #dd0000;
 }
