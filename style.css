@@ -168,9 +168,10 @@ ul.leftnav, ul.rightnav {
 }
 .link {
 	color: #0c23cd;
+	text-decoration: none;
 }
 
-footer {
+#paginafooter {
 	background-image: url("images/footerbackground.png");
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -211,6 +212,7 @@ li a:hover {
 .footernav .actief {
 	text-decoration: underline;
 	color: #1A8900;
+	font-weight: bold;
 }
 #logofooter{
 	display: block;
@@ -232,41 +234,84 @@ li a:hover {
 	bottom: 15%;
 }
 @media screen and (min-width: 360px) {
-	footer (height: 200px;)
+	#paginafooter (height: 200px;)
 	#logofooter (height: 200px;)
     #disclaimer {height: 200px; float: right;}
 }
 /* Horeca pagina */
 
-.cafe {
-	position: absolute;
-	margin-top: 10px;
-	margin-left: 400px;
-	height: 60px;
-	max-width: 600px;
-	width: 100%;
+#horecasection {
+	border-style: solid;
+    border-color: #1A8900;
+	min-height: 469px;
+	margin: 0;
+	max-width: 100%;
+	overflow: initial;
 }
-.stachopeningstijden { 
-	position: absolute;
-	margin-top: 10px;	
-	margin-left: 200px;
+#horecatekstsection {
+	height: 100%;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
 }
-.stachadres {
-	position: absolute;
-	margin-top: 10px;
-	margin-left: 300px;
+.horecabeschrijving {
+	height: 50px;
 }
-.stachwebsite {
-	position: absolute;
-	margin-top: 10px;
-	margin-left: 400px;
+#stachfooter {
+	position: relative;
+	bottom: 0;
 }
-#stachfoto {
-	position: absolute;
-	margin-top: 10px;
-	margin-left: 400px;
+#loetjefooter {
+
+}
+#koffiehuisjefooter {
+
+}
+.horecaarticle {
+	display: inline;
+	height: 40%;
+	width: 60%;
+	margin-top: 2%;
+	float: left;
 }
 
+.openingstijdensection {
+	width: 33%;
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+.adressection {
+	width: 33%;
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+.websitesection {
+	width: 33%;
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+.fotoaside {
+	display: inline;
+	position: static;
+	width: auto;
+	margin-left: 15%;
+	float: left;
+	margin-top: 2%;
+	margin-bottom: 40px;
+}
+.bovenregel {
+	text-transform: uppercase;
+}
+.horecah1, .horecatekst, .bovenregel, .middenregel, .onderregel{
+	margin: 0;
+	font-size: 110%;
+	font-weight: bold;
+	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 #clear{
 	clear:both;
 	height: 1px;
