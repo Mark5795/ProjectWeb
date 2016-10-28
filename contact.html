@@ -66,7 +66,7 @@
 					</section>
 					<header class="berichtheader">
 						<h1 class="contacth1">
-							Uw gegevens
+							Uw bericht
 						</h1>
 					</header>
 					<section class="contactbeschrijving">
@@ -76,10 +76,50 @@
 						<p class="contactbericht">
 							Uw bericht: <span class="asterisk">&#42;</span>
 						</p>
+					</section>
 				</article>
+				<section id="gegevensinputsection">
+					<label class="radio inline"> 
+					  <input type="radio" name="sex" value="male" checked>
+					  <span>Dhr </span> 
+					</label>
+					<label class="radio inline"> 
+					  <input type="radio" name="sex" value="female">
+					  <span>Mevr </span> 
+					</label>
+					<form class="contactformulier">
+						<input type="text" name="voorletters" placeholder="A.B." required>
+					</form>
+					<form class="contactformulier">
+						<input type="text" name="tussenvoegsel">
+					</form>
+					<form class="contactformulier">
+						<input type="text" name="achternaam" required>
+					</form>
+					<form class="contactformulier">
+						<input type="text" name="emailadres" required>
+					</form>
+					<form class="contactformulier">
+						<input type="text" name="telefoonnummer" placeholder="06123456" size="8">
+					</form>
+					<form class="contactformulier">
+						<input type="text" name="websiteadres" placeholder="www.voorbeeld.com">
+					</form>
+				</section>
+				<section id="berichtinputsection">
+					<form class="contactformulier">
+						<input type="text" name="onderwerp" required>
+					</form>
+					<form class="contactformulier">
+						<textarea name="message" rows="10" cols="30" placeholder="Typ hier uw bericht"></textarea>
+					</form>
+					<form class="contactformulier">
+						<input type="button" name="btn" class="btn-style" value="Versturen">
+					</form>
+				</section>
 				<aside id="clear">
 					&nbsp;
-				</aside>
+				</aside>	
 			</section>
 		</section>
 		<footer id="paginafooter">
