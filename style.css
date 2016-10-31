@@ -137,7 +137,7 @@ ul.leftnav, ul.rightnav {
 .hometekst1 {
 	text-decoration: none;
 	font-size: 130%;
-	font-weight: regular;
+	font-weight: normal;
 	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	margin-top: 5%;
 	margin-bottom: 0%;
@@ -147,7 +147,7 @@ ul.leftnav, ul.rightnav {
 .hometekst2 {
 	text-decoration: none;
 	font-size: 130%;
-	font-weight: regular;
+	font-weight: normal;
 	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	width: 100%;
 	float:left;
@@ -176,7 +176,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #transparent;
+    background-color: transparent;
 	max-width: 50%;
 }
 li {
@@ -189,7 +189,7 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 	font-size: 110%;
-	font-weight: regular;
+	font-weight: normal;
 	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	padding-top: 25px;
 }
@@ -219,11 +219,6 @@ li a:hover {
 	float: right;
 	right: 5%;
 	bottom: 15%;
-}
-@media screen and (min-width: 360px) {
-	#paginafooter (height: 200px;)
-	#logofooter (height: 200px;)
-    #disclaimer {height: 200px; float: right;}
 }
 
 
@@ -328,40 +323,49 @@ li a:hover {
 }
 #contacttekstsection {
 	height: 100%;
-	width: 60%;
+	width: 30%;
 	margin-left: auto;
 	margin-right: auto;
 }
-#contactarticle {
+#inputsection {	
+	display: inline;
+	float: left;
+	margin-top: 8%;
+	margin-left: 80px;
+}
+#contactkopsection {
 	display: inline;
 	height: 40%;
-	width: 60%;
 	margin-bottom: 4%;
 	float: left;
+	text-align: left;
+	margin-left: 20%;
 }
-.gegevensinputsection {
+#gegevensinputsection {
 	display: inline;
 	width: auto;
-	margin-left: 15%;
-	float: right;
-	margin-top: 4%;
 	margin-bottom: 4%;
 }
-.berichtinputsection {
-	display: inline;
-	position: static;
-	width: auto;
-	margin-left: 15%;
-	float: right;
+#berichtinputsection {
+	margin-top: 65px;
 	margin-bottom: 4%;
 }
 .contactformulier {
 	margin-top: 16px;
 }
 .contactbeschrijving {
-	margin-left: 5%;
+	margin-left: 15%;
 }
-#contacttitel, .contacth1 {
+input {
+	margin:0;
+}
+#contacttitel {
+	font-size: 140%;
+	color: #1A8900;
+}
+.contacth1 {
+	font-size: 120%;
+	margin: 0;
 	color: #1A8900;
 }
 .inline {
@@ -425,7 +429,6 @@ li a:hover {
 .btn-style {
 	border : solid 0px #1A8900;
 	border-radius : 5px;
-	moz-border-radius : 5px;
 	color : #ffffff;
 	padding : 5px 14px;
 	background-color : #1A8900;
@@ -433,7 +436,24 @@ li a:hover {
 	font-size: 100%;
 	font-weight: bold;
 	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	float: right;
+	margin-bottom: 8%;
 }
 .asterisk {
 	color: #dd0000;
+}
+
+
+/* Contact pagina */
+
+
+#markfoto {
+	display: inline;
+	position: static;
+	width: auto;
+	margin-left: 15%;
+}
+#mark {
+	height: 25%;
+	width: 25%;
 }
