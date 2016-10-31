@@ -134,7 +134,7 @@ ul.leftnav, ul.rightnav {
 	height: 25%;
 	width: 25%;
 }
-.hometekst1 {
+#hometekst1 {
 	text-decoration: none;
 	font-size: 130%;
 	font-weight: normal;
@@ -144,7 +144,7 @@ ul.leftnav, ul.rightnav {
 	width: 100%;
 	float:left;
 }
-.hometekst2 {
+#hometekst2 {
 	text-decoration: none;
 	font-size: 130%;
 	font-weight: normal;
@@ -186,20 +186,25 @@ li a {
     display: block;
     color: #FFFFFF;
     text-align: center;
-    padding: 14px 16px;
+	margin-top: 25px;
+	margin-left: 16px;
+	margin-right: 16px;
     text-decoration: none;
 	font-size: 110%;
 	font-weight: normal;
 	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	padding-top: 25px;
 }
 li a:hover {
     background-color: #1A8900;
 }
 .footernav .actief {
-	text-decoration: underline;
 	color: #1A8900;
 	font-weight: bold;
+	border-bottom: 3px solid;
+}
+#actiefkleur {
+  color: #FFFFFF;
+  text-decoration: none;
 }
 #logofooter {
 	display: block;
@@ -444,9 +449,46 @@ input {
 }
 
 
-/* Contact pagina */
+/* Mark pagina */
 
-
+#marksection {
+	border-style: solid;
+    border-color: #1A8900;
+	min-height: 469px;
+	margin: 0;
+	max-width: 100%;
+	overflow: initial;
+}
+#marktekstsection {
+	height: 100%;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2%;
+}
+#marktekst1 {
+	text-decoration: none;
+	font-size: 130%;
+	font-weight: normal;
+	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	width: 100%;
+	float:left;
+}
+#marktekst2 {
+	text-decoration: none;
+	font-size: 130%;
+	font-weight: normal;
+	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	width: 100%;
+	float:left;
+	margin: 0;
+}
+#marktekstarticle {
+	height: 60%;
+	width: 60%;
+}
 #markfoto {
 	display: inline;
 	position: static;
