@@ -453,7 +453,7 @@ input {
 
 #marksection {
 	border-style: solid;
-  border-color: #1A8900;
+	border-color: #1A8900;
 	min-height: 469px;
 	margin: 0;
 	max-width: 100%;
@@ -592,4 +592,52 @@ input {
 	font-size: 100%;
 	font-weight: normal;
 	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+/* Duinwijk pagina */
+
+
+#duinwijksection {
+	border-style: solid;
+  border-color: #1A8900;
+	min-height: 469px;
+	margin: 0;
+	max-width: 100%;
+	overflow: initial;
+	#reizentekstsection {
+	height: 100%;
+	width: 60%;
+	margin-top: 2%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#duinwijktekstsection {
+	height: 100%;
+	width: 60%;
+	margin-top: 2%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#reizenheader {
+	font-size: 130%;
+	font-weight: bold;
+}
+#duinwijktekstarticle {
+	display: inline;
+	height: 40%;
+	width: 60%;
+	float: left;
+}
+#ingangfoto {
+	display: inline;
+	position: static;
+	width: auto;
+	margin-left: 10%;
+	margin-top: 20%;
+}
+#ingang {
+	height: 40%;
+	width: 40%;
+	margin-top: 10%;
 }
