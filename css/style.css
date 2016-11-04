@@ -2,6 +2,7 @@ html {
 	-webkit-text-size-adjust: none;
 	position: relative;
     height: 100%;
+	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 body{
 	height: 100%;
@@ -61,7 +62,7 @@ ul.leftnav, ul.rightnav {
 .leftnav li a, .rightnav li a {
     display: block;
     color: white;
-    padding: 14px 16px;
+    padding: 19px 16px;
     text-decoration: none;
 }
 .leftnav li a{
@@ -102,8 +103,7 @@ ul.leftnav, ul.rightnav {
 	font-size: 150%;
 	font-weight: bold;
 	text-transform: uppercase;
-	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	padding-top: 25px;
+	padding-top: 10px;
 }
 #homesection {
 	border-style: solid;
@@ -121,24 +121,25 @@ ul.leftnav, ul.rightnav {
 	margin-top: 5%;
 }
 #hometekstarticle {
-	height: 60%;
+	display: inline;
+	height: 40%;
 	width: 60%;
+	margin-bottom: 4%;
+	float: left;
 }
 #bospadfoto {
 	display: inline;
-	position: static;
-	width: auto;
-	margin-left: 15%;
+	width: 30%;
+	float: right;
+	margin-top: 1%;
 }
 #bospad {
-	height: 25%;
-	width: 25%;
+	width: 70%;
 }
 #hometekst1 {
 	text-decoration: none;
 	font-size: 130%;
 	font-weight: normal;
-	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	margin-top: 5%;
 	margin-bottom: 0%;
 	width: 100%;
@@ -148,7 +149,6 @@ ul.leftnav, ul.rightnav {
 	text-decoration: none;
 	font-size: 130%;
 	font-weight: normal;
-	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	width: 100%;
 	float:left;
 	margin: 0;
@@ -165,7 +165,7 @@ ul.leftnav, ul.rightnav {
 	background-image: url("../img/footerbackground.png");
 	background-size: cover;
 	background-repeat: no-repeat;
-	min-height: 95px;
+	min-height: 100px;
 	width: 100%;
 	margin: 0;
 	padding: 0;
@@ -186,13 +186,12 @@ li a {
     display: block;
     color: #FFFFFF;
     text-align: center;
-	margin-top: 25px;
+	margin-top: 21px;
 	margin-left: 16px;
 	margin-right: 16px;
     text-decoration: none;
 	font-size: 110%;
 	font-weight: normal;
-	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 li a:hover {
     background-color: #1A8900;
@@ -218,18 +217,15 @@ li a:hover {
 }
 #disclaimer {
 	display: block;
-    margin: auto;
-	color: #ffffff;
+	color: #FFFFFF;
 	position: relative;
 	float: right;
 	right: 5%;
-	bottom: 15%;
 }
-
-
-/* Horeca pagina */
-
-
+#bronvermelding {
+	color: #FFFFFF;
+	text-decoration: none;
+}/* Horeca pagina */
 #horecasection {
 	border-style: solid;
     border-color: #1A8900;
@@ -247,11 +243,7 @@ li a:hover {
 .horecabeschrijving {
 	height: 50px;
 }
-#stachfooter {
-	margin-top: 90px;
-	margin-bottom: 40px;
-}
-#loetjefooter {
+#stachfooter, #loetjefooter {
 	margin-top: 90px;
 	margin-bottom: 40px;
 }
@@ -267,19 +259,7 @@ li a:hover {
 	margin-bottom: 4%;
 	float: left;
 }
-.openingstijdensection {
-	width: 33%;
-	padding: 0;
-	margin: 0;
-	float: left;
-}
-.adressection {
-	width: 33%;
-	padding: 0;
-	margin: 0;
-	float: left;
-}
-.websitesection {
+.openingstijdensection, .websitesection, .adressection  {
 	width: 33%;
 	padding: 0;
 	margin: 0;
@@ -287,7 +267,6 @@ li a:hover {
 }
 .fotoaside {
 	display: inline;
-	position: static;
 	width: auto;
 	margin-left: 15%;
 	float: right;
@@ -301,7 +280,6 @@ li a:hover {
 	margin: 0;
 	font-size: 110%;
 	font-weight: bold;
-	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 #clear {
 	clear:both;
@@ -309,11 +287,7 @@ li a:hover {
 	display:block;
 	width:100%;
 }
-
-
 /* Contact pagina */
-
-
 #contactsection {
 	border-style: solid;
     border-color: #1A8900;
@@ -323,19 +297,11 @@ li a:hover {
 	overflow: initial;
 	font-size: 110%;
 	font-weight: bold;
-	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 #contacttekstsection {
 	height: 100%;
-	width: 30%;
-	margin-left: auto;
-	margin-right: auto;
-}
-#inputsection {
-	display: inline;
-	float: left;
-	margin-top: 8%;
-	margin-left: 80px;
+	width: 40%;
+	margin-left: 35%;
 }
 #contactkopsection {
 	display: inline;
@@ -343,7 +309,13 @@ li a:hover {
 	margin-bottom: 4%;
 	float: left;
 	text-align: left;
-	margin-left: 20%;
+	margin-left: 7%;
+}
+#inputsection {
+	display: inline;
+	float: left;
+	margin-top: 6%;
+	margin-left: 156px;
 }
 #gegevensinputsection {
 	display: inline;
@@ -355,7 +327,7 @@ li a:hover {
 	margin-bottom: 4%;
 }
 .contactformulier {
-	margin-top: 16px;
+	margin-top: 17px;
 }
 .contactbeschrijving {
 	margin-left: 15%;
@@ -365,7 +337,8 @@ input {
 }
 #contacttitel {
 	font-size: 140%;
-	color: #1A8900;
+	color: #000000;
+	margin-left: 30%;
 }
 .contacth1 {
 	font-size: 120%;
@@ -439,21 +412,16 @@ input {
 	text-transform: uppercase;
 	font-size: 100%;
 	font-weight: bold;
-	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	float: right;
 	margin-bottom: 8%;
 }
 .asterisk {
 	color: #dd0000;
 }
-
-
 /* Mark pagina */
-
-
 #marksection {
 	border-style: solid;
-	border-color: #1A8900;
+    border-color: #1A8900;
 	min-height: 469px;
 	margin: 0;
 	max-width: 100%;
@@ -466,65 +434,41 @@ input {
 	margin-right: auto;
 	margin-top: 2%;
 }
+#marktekstarticle {
+	display: inline;
+	height: 40%;
+	width: 60%;
+	margin-top: 4%;
+	margin-bottom: 4%;
+	float: left;
+}
 #marktekst1 {
 	text-decoration: none;
 	font-size: 110%;
 	font-weight: normal;
-	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	margin-top: 1%;
 	margin-bottom: 0%;
-	width: 100%;
 	float:left;
 }
-#marktekst2 {
+#marktekst2, #marktekst3, #marktekst4 {
 	text-decoration: none;
 	font-size: 110%;
 	font-weight: normal;
-	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	width: 100%;
 	float:left;
 	margin: 0;
 	margin-top: 1%;
-}
-#marktekst3 {
-	text-decoration: none;
-	font-size: 110%;
-	font-weight: normal;
-	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	width: 100%;
-	float:left;
-	margin: 0;
-	margin-top: 1%;
-}
-#marktekst4{
-	text-decoration: none;
-	font-size: 110%;
-	font-weight: normal;
-	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	width: 100%;
-	float:left;
-	margin: 0;
-	margin-top: 1%;
-}
-#marktekstarticle {
-	height: 60%;
-	width: 60%;
 }
 #markfoto {
 	display: inline;
-	position: static;
-	width: auto;
-	margin-left: 15%;
+	width: 30%;
+	float: right;
+	margin-top: 5%;
+	margin-bottom: 4%;
 }
 #mark {
-	height: auto;
-	width: 25%;
+	width: 80%;
 }
-
-
 /* reizen pagina */
-
-
 #reizensection {
 	border-style: solid;
   border-color: #1A8900;
@@ -532,10 +476,26 @@ input {
 	margin: 0;
 	max-width: 100%;
 	overflow: initial;
+	text-decoration: none;
+	font-size: 100%;
+	font-weight: normal;
+}
+#reizentekstsection {
+	height: 100%;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2%;
 }
 #reizenheader {
 	font-size: 130%;
 	font-weight: bold;
+}
+#openbaarvervoerarticle, #autoarticle {
+	display: inline;
+	height: 40%;
+	width: 60%;
+	float: left;
 }
 #openbaarvervoertekst {
 	margin: 0;
@@ -555,62 +515,27 @@ input {
 	margin-top: 2%;
 	margin-bottom: 2%;
 }
-#reizentekstsection {
-	height: 100%;
-	width: 60%;
-	margin-top: 2%;
-	margin-left: auto;
-	margin-right: auto;
-}
-#openbaarvervoerarticle {
-	display: inline;
-	height: 40%;
-	width: 60%;
-	float: left;
-}
 #autoarticle {
-	display: inline;
-	height: 40%;
-	width: 60%;
-	float: left;
 	margin-bottom: 2%;
 }
 #treinfoto {
 	display: inline;
-	position: static;
-	width: auto;
-	margin-left: 10%;
-	margin-top: 20%;
+	width: 30%;
+	float: right;
+	margin-top: 5%;
+	margin-bottom: 4%;
 }
 #trein {
-	height: 40%;
-	width: 40%;
-	margin-top: 10%;
+	width: 140%;
 }
-#reizensection {
-	text-decoration: none;
-	font-size: 100%;
-	font-weight: normal;
-	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-
 /* Duinwijk pagina */
-
-
 #duinwijksection {
 	border-style: solid;
-  border-color: #1A8900;
+	border-color: #1A8900;
 	min-height: 469px;
 	margin: 0;
 	max-width: 100%;
 	overflow: initial;
-	#reizentekstsection {
-	height: 100%;
-	width: 60%;
-	margin-top: 2%;
-	margin-left: auto;
-	margin-right: auto;
 }
 #duinwijktekstsection {
 	height: 100%;
@@ -619,25 +544,142 @@ input {
 	margin-left: auto;
 	margin-right: auto;
 }
-#reizenheader {
+#duinwijkheader {
 	font-size: 130%;
 	font-weight: bold;
 }
-#duinwijktekstarticle {
+#wandelroutearticle, #zwembadtekstarticle {
+	display: inline;
+	height: 40%;
+	width: 100%;
+	float: left;
+}
+#wandelrouteheader, #zwembadheader {
+	font-size: 130%;
+	font-weight: bold;
+	margin-bottom: 0%;
+}
+#wandelroutetekst1, #zwembadtekst1, #zwembadtekst2{
+	text-decoration: none;
+	font-size: 100%;
+	font-weight: normal;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	width: 100%;
+	float: left;
+}
+#wandelrouteh3 {
+	margin: 0;
+	font-size: 110%;
+}
+#wandelroute {
+	display: inline;
+	margin-left: 10%;
+}
+#wandelroutefoto {
+	height: 40%;
+    width: 79%;
+    margin-top: 2%;
+	margin-bottom: 2%;
+}
+#zwembadtekst1, #zwembadtekst2, #zwembadbron {
+	margin-bottom: 1%;
+}
+#ingang, #zwembad {
+	width: 43%;
+}
+#zwembad {
+	margin-left: -3px;
+}
+#zwembadfoto {
+	margin-left: 12%;
+	margin-bottom: 4%;
+	margin-top: 26%;
+}
+/* Weetjes pagina */
+#weetjessection {
+	border-style: solid;
+    border-color: #1A8900;
+	min-height: 469px;
+	margin: 0;
+	max-width: 100%;
+	overflow: initial;
+}
+#weetjestekstsection {
+	height: 100%;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#weetjesbeschrijving {
+	height: 50px;
+}
+#weetjesarticle {
 	display: inline;
 	height: 40%;
 	width: 60%;
+	margin-top: 4%;
+	margin-bottom: 4%;
 	float: left;
 }
-#ingangfoto {
-	display: inline;
-	position: static;
-	width: auto;
-	margin-left: 10%;
-	margin-top: 20%;
+#weetjesh1, #weetjestekst, #weetjesh3 {
+	margin: 0;
+	font-size: 110%;
+	font-weight: bold;
 }
-#ingang {
-	height: 40%;
-	width: 40%;
+.weetjesh2 {
+	margin-bottom: 1%;
+}
+.weetjestekst3 {
+	margin-bottom: 0;
+}
+#weetjestekst2, .weetjestekstbekend {
+	margin: 0;
+	font-size: 100%;
+}
+#landgoedaside {
+	display: inline;
+	width: 30%;
+	float: right;
 	margin-top: 10%;
+	margin-bottom: 4%;
+}
+#landgoedfoto {
+	height: 100%;
+	width: 100%;
+}
+/* bronvermelding */
+#bronvermeldingsection {
+	border-style: solid;
+    border-color: #1A8900;
+	min-height: 469px;
+	margin: 0;
+	max-width: 100%;
+	overflow: initial;
+}
+#bronvermeldingtekstsection {
+	height: 100%;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#bronvermeldingtekstarticle {
+	height: 40%;
+	width: 100%;
+	float: left;
+}
+.brontekst {
+	text-decoration: none;
+	font-size: 110%;
+	font-weight: normal;
+	float:left;
+	margin-top: 1%;
+}
+#landgoedbron {
+	width: 20%;
+	margin-top: 1%;
+}
+#wandelroutebron {
+	width: 20%;
+	margin-top: 1%;
 }
